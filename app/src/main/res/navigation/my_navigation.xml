@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/loadAppFragment">
+
+    <fragment
+        android:id="@+id/loginTabsFragment"
+        android:name="br.iesb.mobile.icard.view.fragment.LoginTabsFragment"
+        android:label="fragment_login_tabs"
+        tools:layout="@layout/fragment_login_tabs" >
+        <action
+            android:id="@+id/action_loginTabsFragment_to_recoverPasswordFragment"
+            app:destination="@id/recoverPasswordFragment" />
+        <action
+            android:id="@+id/action_loginTabsFragment_to_mainTabsFragment"
+            app:destination="@id/mainTabsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recoverPasswordFragment"
+        android:name="br.iesb.mobile.icard.view.fragment.RecoverPasswordFragment"
+        android:label="RecoverPasswordFragment"
+        tools:layout="@layout/fragment_recover_password">
+        <action
+            android:id="@+id/action_recoverPasswordFragment_to_loginTabsFragment"
+            app:destination="@id/loginTabsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainTabsFragment"
+        android:name="br.iesb.mobile.icard.view.fragment.MainTabsFragment"
+        android:label="MainTabsFragment"
+        tools:layout="@layout/fragment_main_tabs">
+        <action
+            android:id="@+id/action_mainTabsFragment_to_storeDetailFragment"
+            app:destination="@id/storeDetailFragment" />
+        <action
+            android:id="@+id/action_mainTabsFragment_to_loginTabsFragment"
+            app:destination="@id/loginTabsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storeDetailFragment"
+        android:name="br.iesb.mobile.icard.view.fragment.StoreDetailFragment"
+        android:label="StoreDetailFragment"
+        tools:layout="@layout/fragment_store_detail">
+        <action
+            android:id="@+id/action_storeDetailFragment_to_storeMapsFragment"
+            app:destination="@id/storeMapsFragment" />
+        <action
+            android:id="@+id/action_storeDetailFragment_to_productsListFragment"
+            app:destination="@id/productsListFragment" />
+        <action
+            android:id="@+id/action_storeDetailFragment_to_mainTabsFragment"
+            app:destination="@id/mainTabsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storeMapsFragment"
+        android:name="br.iesb.mobile.icard.view.fragment.StoreMapsFragment"
+        android:label="StoreMapsFragment"
+        tools:layout="@layout/fragment_store_maps">
+        <action
+            android:id="@+id/action_storeMapsFragment_to_storeDetailFragment"
+            app:destination="@id/storeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productsListFragment"
+        android:name="br.iesb.mobile.icard.view.fragment.ProductsListFragment"
+        android:label="ProductsListFragment"
+        tools:layout="@layout/fragment_products">
+        <action
+            android:id="@+id/action_productsListFragment_to_storeDetailFragment"
+            app:destination="@id/storeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loadAppFragment"
+        android:name="br.iesb.mobile.icard.view.fragment.LoadAppFragment"
+        android:label="LoadAppFragment"
+        tools:layout="@layout/fragment_load_app">
+        <action
+            android:id="@+id/action_loadAppFragment_to_loginTabsFragment"
+            app:destination="@id/loginTabsFragment" />
+        <action
+            android:id="@+id/action_loadAppFragment_to_mainTabsFragment"
+            app:destination="@id/mainTabsFragment" />
+    </fragment>
+</navigation>

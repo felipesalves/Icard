@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.MaterialComponents.ExtendedFloatingActionButton.icard">
+        <item name="android:backgroundTint">@color/deep_orange</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon.icard">
+        <item name="android:backgroundTint">@color/deep_orange</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.FloatingActionButton.icard">
+        <item name="android:backgroundTint">@color/deep_orange</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Widget.Design.FloatingActionButton.icard">
+        <item name="android:backgroundTint">@color/deep_orange</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+</resources>

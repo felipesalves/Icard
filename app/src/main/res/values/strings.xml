@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ICard</string>
+
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="passwordConfirm">Confirmar Senha</string>
+    <string name="confirm">Confirmar</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Esqueceu a Senha</string>
+    <string name="recoverPassword">Digite o e-mail cadastrado para a recuperação da senha do login</string>
+    <string name="location">Localização</string>
+    <string name="promotions">Promoções</string>
+
+    <string name="mandatory_Email">O e-mail é obrigatorio</string>
+    <string name="mandatory_Password">A senha é obrigatorio</string>
+    <string name="shorter_Password">A senha deve ser maior que 6 caracteres</string>
+    <string name="login_error">Error ao acessar o sistema</string>
+    <string name="password_Does_not_match">O campo confirmar senha não confere com senha anterior</string>
+    <string name="confirm_mandatory_Password">O campo confirmar senha é obrigatorio</string>
+    <string name="Forgot_Password">Redefinição de senha enviada para o e-mail</string>
+    <string name="email_Does_not_match">E-mail não cadastrado</string>
+    <string name="create_count_success">Conta criada com sucesso</string>
+
+    <string name="qrcode_description">Este é seu código, mostre-o para receber pontos pelo Icard</string>
+    <string name="copyRight">© 2020 Icard Inc.</string>
+    <string name="app">Icard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
